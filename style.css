@@ -1,0 +1,85 @@
+/*common elements*/
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav div {
+ padding-left: 5vh !important;
+}
+
+footer {
+  font-size: .75rem;
+  display: flex;
+  color: gray;
+  background-color: lightgray;
+  justify-content: center;
+  align-self: stretch;  
+}
+
+footer p {
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+}
+
+main {
+  min-height: 82.5vh;
+  padding: 5vh;
+  background-color: #e1e1e1;
+}
+
+
+/*index*/
+#image-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#image-container img {
+  margin: 1vw auto;
+}
+
+/*interesting facts*/
+
+.accordion-button {
+  color: white !important;
+}
+
+.accordion-item h2 {
+  color: white;
+}
+
+.panel-default > .panel-heading {
+  background-color:red;
+}
+
+p span {
+  font-size:50px;
+}
+
+/*History*/
+.timeline {
+  display: flex;
+  flex-direction:column;
+  margin-top: 30px;
+}
+
+.containerTimeline {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+
+.verticalLine {
+  border: 5px solid #198754;
+  background-color: #198754;
+  margin: 5px;
+}
+
+.content-Timeline {
+  padding: 1rem;
+}
+

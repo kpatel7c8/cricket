@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--************may need above: shrink-to-fit=no******* -->
+
+    <!-- CSS: Bootstrap, font-awesome, bootstrap-social, custom-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cricket</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="/images/logo.png" alt="cricket logo" style="width:100px;" class="rounded-pill">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link"href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="history.html">History</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gameplay.html">Gameplay</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="equipment.html">Equipment</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Interesting Facts</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <div class="container-fluid col-12 col-xl-8 col-xxl-6" id="container">
+        <h1 style="margin-bottom: 30px;">Interesting Facts</h1>
+        <div class="accordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                #1. First Recorded Game
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                The first recorded game of cricket was played in 1611 when 2 men were prosecuted in court for playing criket in Sunday and skipping church service in doing so!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                #2. No Time Limits? Are You Sure?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                The longest cricket match took place in 1939 between England and South Africa in Durban. It lasted over 9 days and 46 hours of play but ended in a draw because the English players needed to catch a train to ultimately board a ship back home. While such timeless Tests were common at the time to force a result in the  match (to avoid a draw), this was the last such instance after which a hard time limit was enforced for all cricket matches.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                #3. How's The Weather?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                The two most common causes for pausing or suspending a cricket match is rain and bad light. Being an outdoor sport, there is no escaping the elements but the long nature of the game, especially Test cricket, is particularly influenced by weather conditions. Grass or wear on the pitch influence player selection and tactics while weather forecast often adds drama and unpredictability when a team is chasing a target or trying to save a match. 
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                #4 First International Sport
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+              <div class="accordion-body">
+                The first ever cricket match between two countries was played between the US and Canada on September 1844 in New York. It was the first time any two nations played a sporting event in modern history. Canada won the match by 23 runs. Growing popularity of another similar sport - Baseball - meant that cricket never took off in the US.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                #5. Olympic Sport?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+              <div class="accordion-body">
+                Cricket  featured in two successive Olympics in 1890 and 1900 in Athens and Paris respectively. In present times, cricket's participation on the world's biggest stage is marred by issues such as lack of initiative from governing body and scheduling as well as logistical issues.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                #6. Great Rivalries
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+              <div class="accordion-body">
+                England and Australia are the oldest Test playing nations dating back to 1882. The two countries  have played each other in a bi-annual series, known as The Ashes, since their first match almost uninterrupted. Another famous rivalry is between India and Pakistan. The two nations only face each other in global events but their match is often the most anticipated match watched by a billion fans.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                #7. Cricket's Immortal Number
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
+              <div class="accordion-body">
+                There can be no discussion about cricket without mentioning its greatest player - Donald Bradman. Bradman played 52 Test matches for Australia from 1928-1948 and scored 6996 runs including 29 centuries at an average of <strong>99.94</strong> For comparison, the next highest Test batting average is less than 62 and all but the top 5 players average less than 60.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
+                #8. Ladies First!
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
+              <div class="accordion-body">
+                The first ever cricket world cup was organized for women in 1973 2 years before men's inaugural world cup. A total of 7 teams participated including an International XI. England won against Australia in the last match to become the first world champions.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false" aria-controls="panelsStayOpen-collapseNine">
+                #9. Colored Clothing? No Thanks!
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingNine">
+              <div class="accordion-body">
+                All cricket matches until mid 1970s were played in white uniforms. A different colored uniform kit for each team was first introduced in 1977 World Series cricket and since then it has been adopted in the shorter formats. Players in Test cricket still wear all whites &agrave; la Wimbledon and up until 2019 they did not have their name or number on the jerseys. And they dare complain Test cricket is dying! 
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="false" aria-controls="panelsStayOpen-collapseTen">
+                #10. Tendulkar, You Beauty!
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTen">
+              <div class="accordion-body">
+                Sachin Tendulkar from India is arguably the greatest batsman in the modern era. He holds numerous batting records including scoring the first double century in men's ODIs and being the only player to score 100 international centuries.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+            <p>&copy; Copyright 2022 kpatel7c8</p>
+    </footer>
+    <!-- JS: jQuery, popper.js, bootstrap.min.js, custom -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
