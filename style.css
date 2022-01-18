@@ -76,10 +76,23 @@ p span {
 .verticalLine {
   border: 5px solid #198754;
   background-color: #198754;
-  margin: 5px;
+  margin: 10px 5px;
 }
 
 .content-Timeline {
   padding: 1rem;
+  margin-top: -2.6rem;
 }
 
+.seed {
+ width: 20px;
+ height: 20px;
+ border: 2px solid #198754;
+ background-color: #198754;
+ 
+}
+
+.seedContainer {
+  display: flex;
+  flex-direction: row;
+}
