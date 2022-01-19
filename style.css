@@ -96,3 +96,12 @@ p span {
   display: flex;
   flex-direction: row;
 }
+
+/*how to play*/
+
+#johnsonVideo {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
