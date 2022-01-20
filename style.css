@@ -30,12 +30,22 @@ main {
   background-color: #e1e1e1;
 }
 
+p {
+  text-align:justify;
+}
+
 
 /*index*/
-#image-container {
+#wrappedImg {
+  margin: 1% 2%;
+}
+
+#carouselContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
 }
 
 #image-container img {
@@ -97,7 +107,12 @@ p span {
   flex-direction: row;
 }
 
-/*how to play*/
+/*gameplay*/
+
+.list-group-item {
+  background-color: #e1e1e1;
+  border: none;
+}
 
 #johnsonVideo {
   width: 50%;

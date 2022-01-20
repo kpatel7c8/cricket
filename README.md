@@ -14,6 +14,9 @@ Logo design:
 
 Images on the home page:
 
+Medieval men playing Cricket via Getty Images.
+Credit: duncan1890, Creative #: 1258107857
+
 Melbourne Cricket Ground via Getty Images.
 Credit: Darrian Traynor / Stringer, Editorial #: 466042783
 
