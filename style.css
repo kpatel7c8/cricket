@@ -12,10 +12,10 @@ nav div {
 footer {
   font-size: .75rem;
   display: flex;
-  color: gray;
-  background-color: lightgray;
+  background-color: #198754;
+  color: white;
   justify-content: center;
-  align-self: stretch;  
+  align-self: stretch;
 }
 
 footer p {
@@ -28,6 +28,7 @@ main {
   min-height: 82.5vh;
   padding: 5vh;
   background-color: #e1e1e1;
+  flex-grow: 1;
   /*text-align:justify;*/
 
 }
@@ -47,6 +48,15 @@ main {
   flex-wrap: wrap;
   width: 80%;
   margin: 0 auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  color: red;
+}
+
+.carousel-caption {
+  color: white;
+  text-shadow: 1px 1px red;
 }
 
 #image-container img {
