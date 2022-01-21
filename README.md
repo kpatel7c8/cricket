@@ -1,15 +1,17 @@
 # cricket
-A website about the sport of cricket.
+A website about the sport of cricket made using Bootstrap 5.
 
 
 
+Disclaimer:
+All the writing is original by the author of this website while facts have been corroborated by various sources including but not limited to ESPNcricinfo, International Cricket Council (ICC), Encyclopedia Britannica, and Wisden. The author is not responsible for the factuality of anything stated on this website. All the images used on this website belong to their rightful owners.
 
 
 
 
 Credits:
 
-Logo design:
+Logo & favicon:
 <a href="https://www.flaticon.com/free-icons/cricket" title="cricket icons">Cricket icons created by Freepik - Flaticon</a>
 
 Images on the home page:
@@ -28,3 +30,8 @@ Credit: Laurence Griffiths / Staff, Editorial #: 146639306
 
 Peter Nevill dives to take a catch via Getty Images.
 Credit: Ryan Pierse / Staff , Editorial #: 509606294
+
+Video linked on Gameplay:
+
+Video highlights of Mitchell Johnson bowling at the Gabba in an Ashes series from 2013 via YouTube.
+Credit: cricket.com.au, a division of Cricket Australia
