@@ -1,7 +1,12 @@
 # cricket
-A website about the sport of cricket made using Bootstrap 5.
 
-**** See it in action at: https://kpatel7c8.github.io/cricket/ ****
+## Link: https://kpatel7c8.github.io/cricket/
+
+## About:
+
+A website to introduce the sport of Cricket to a complete beginner, made using Bootstrap 5.
+
+
 
 Disclaimer:
 All the writing is original by the author of this website while facts have been corroborated by various sources including but not limited to ESPNcricinfo, International Cricket Council (ICC), Encyclopedia Britannica, and Wisden. The author is not responsible for the factuality of anything stated on this website. All the images used on this website belong to their rightful owners.
