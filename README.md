@@ -1,6 +1,6 @@
 # cricket
 
-## Link: https://kpatel7c8.github.io/cricket/
+## Link: https://lil-white-shadow.github.io/cricket/
 
 ## About:
 
