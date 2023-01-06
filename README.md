@@ -1,20 +1,27 @@
 # cricket
 
-## Link: https://lil-white-shadow.github.io/cricket/
+A static website to introduce the sport of Cricket to a complete beginner, made using Bootstrap 5.
 
-## About:
-
-A website to introduce the sport of Cricket to a complete beginner, made using Bootstrap 5.
+## Published @ https://lil-white-shadow.github.io/cricket/
 
 
+## Images
 
-Disclaimer:
-All the writing is original by the author of this website while facts have been corroborated by various sources including but not limited to ESPNcricinfo, International Cricket Council (ICC), Encyclopedia Britannica, and Wisden. The author is not responsible for the factuality of anything stated on this website. All the images used on this website belong to their rightful owners.
+### Homepage
+
+![image](https://user-images.githubusercontent.com/96262157/210975952-82c4dfae-d213-454e-b80d-046fdaba19cb.png)
+
+### Bottom of Gameplay page 
+#### A completely bonkers video of Mitchell Johnson bowling in the 2013 Ashes. Go and watch this - seriously!!!
+
+![image](https://user-images.githubusercontent.com/96262157/210976467-d1551e07-70ef-460d-8cc5-e3462280102d.png)
+
+### Demo - Self-made responsive behavior of timeline on History page
+
+[Tab-1672999084370.webm](https://user-images.githubusercontent.com/96262157/210977662-8b77bf7b-ebf2-4bcd-9fc7-7586fb83e874.webm)
 
 
-
-
-Credits:
+## Credits:
 
 Logo & favicon:
 <a href="https://www.flaticon.com/free-icons/cricket" title="cricket icons">Cricket icons created by Freepik - Flaticon</a>
